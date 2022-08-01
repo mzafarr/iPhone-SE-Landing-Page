@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+#nav1 {
+    padding-left: 80px !important;
+}
+
+.header {
+    border: 0.1px solid #8b8b8c;
+    margin: -1px;
+    background-color: white;
+}
+
+.header h1 {
+    font-size: 26px;
+    padding-left: 60px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 650;
+}
+
+.header h2 {
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#nav2-items {
+    padding-right: 60px;
+    width: max-content;
+    /* max-content brought the tech specs in one line */
+}
+
+#nav-2 {
+    position: fixed;
+}
+
+#nav2-links {
+    color: black;
+    font-size: 14px;
+
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#buy-btn {
+    border: 1px solid white;
+    border-radius: 10%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    width: 70px;
+}
+
+hr {
+    margin: -10px;
+}
+
+#nav-3 {
+    margin: 15px;
+}
+
+#nav-3 p {
+    padding: 5px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+#nav-3::before {
+    content: "";
+    background-color: rgb(110, 111, 113);
+
+}
+
+#nav-links {
+    font-size: 14px;
+}
+
+#add-info {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+#main-box {
+    display: flex;
+}
+
+#main-img {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+    height: 500px;
+}
+
+#main-info {
+    padding-left: 20px;
+    padding-right: 100px;
+    height: 600px;
+    overflow: auto;
+}
+
+#main-info #new {
+    padding-top: 50px;
+    color: #8d1919;
+    font-weight: 600;
+    margin: 0px;
+}
+
+#main-info h1 {
+    padding-bottom: 6px;
+}
+
+#main-info h5 {
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 18px;
+}
+
+#main-info a {
+    font-weight: 500;
+}
+
+#main-info h4 {
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+
+#main-info a:hover {
+    text-decoration: underline;
+}
+
+#choose-your-finish {}
+
+.box {
+    padding: 0px;
+    margin: 5px;
+    border: 1px solid #cfcdcd;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 110px;
+    width: 200px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow:
+        0.9px 1.4px 3.1px -12px rgba(0, 0, 0, 0.031),
+        3.5px 5.5px 10.3px -12px rgba(0, 0, 0, 0.04),
+        9px 14px 46px -12px rgba(0, 0, 0, 0.09);
+}
+
+.box:hover {
+    border: 1px solid #6f6d6d;
+}
+
+#midnight {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 15px;
+    border: 1px solid #3e3b3b;
+    background-color: #3e3b3b;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.box p {
+    text-align: center;
+    margin: auto;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+#starlight {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 15px;
+    border: 1px solid #e4e0e0;
+    background-color: #f8eded;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+#red {
+    display: block;
+    margin: auto;
+    margin-top: 15%;
+    margin-bottom: 15px;
+    border: 1px solid #990010;
+    background-color: #990010;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+#product-red-thing {
+    display: flex;
+    padding-top: 20px;
+    /* padding-right: 100px;  */
+    margin-bottom: 15px;
+}
+
+#product-red-thing img {
+    height: 28px;
+}
+
+#product-red-thing div {
+    margin: auto;
+}
+
+#product-red-thing p {
+    font-size: 12px;
+}
+
+#choose-your-capacity a {
+    font-weight: 400;
+}
+
+#GB-text {
+    font-size: 28px;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+}
+
+#GB {
+    display: inline;
+    font-size: 20px;
+}
+
+small {
+    display: block;
+    font-size: 12px;
+}
+
+.btn-block {
+    width: 90%;
+    border-radius: 12px;
+    height: 7%;
+    padding: 0px;
+    margin: 10px;
+    font-size: 15px;
+    line-height: 1.17648;
+}
